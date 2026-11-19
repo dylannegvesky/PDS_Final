@@ -1,6 +1,6 @@
 .python-version
-pyproject.toml
 .DS_Store
-
-*.csv
-*.psv 
+*.psv
+/data/
+.ipynb_checkpoints/
+__pycache__/

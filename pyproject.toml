@@ -1,0 +1,27 @@
+[project]
+name = "pds-final"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Dylan Negvesky", email = "dylannegvesky@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "pandas",
+    "ipykernel",
+    "pyarrow",
+    "requests",
+    "tqdm",
+    "timezonefinder",
+    "holidays",
+    "scikit-learn",
+    "nbconvert",
+]
+
+[project.scripts]
+pds-final = "pds_final:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
