@@ -1,0 +1,6 @@
+.python-version
+pyproject.toml
+.DS_Store
+
+*.csv
+*.psv 
